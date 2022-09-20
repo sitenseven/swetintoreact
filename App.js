@@ -3,49 +3,17 @@ import { StyleSheet, Text, View } from 'react-native';
 import ReactDOM from 'react-dom';
 import * as React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
+import './assets/css/styles.css';
+
+
+
+
 
 function MainMenu() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <div className="container-fluid">
-        <a className="navbar-brand" href="#">
-          Navbar
-        </a>
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav">
-            <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">
-                Home
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                Features
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                Pricing
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link disabled">Disabled</a>
-            </li>
-          </ul>
-        </div>
+<div className="container-fluid" style={{textAlign: 'center', padding: '30px',position: 'relative'}}>
+        <h1 style={{textAlign: 'center', fontFamily: '"DM Sans"', fontStyle: 'normal', fontWeight: 700, fontSize: '40px', lineHeight: '70px'}}>Your e-Commerce&nbsp;<br />made simple</h1><button className="btn btn-primary" type="button" style={{background: 'linear-gradient(96.26deg, #5AB0FF 21.99%, #0079FF 68.41%)', borderWidth: '0px', borderRadius: '60px', width: '267px', fontFamily: '"Roboto"', fontStyle: 'normal', fontWeight: 500, fontSize: '18px', lineHeight: '21px', height: '72px'}}>Go shopping?</button>
       </div>
-    </nav>
   );
 }
 function Jumbotron() {
@@ -69,6 +37,15 @@ function Jumbotron() {
         <div className="col-md-6 text-end" style={{padding: '0px'}}><img className="imageres" src={require('./assets/img/clipboard-image-34.png')} /></div>
       </div>
     </div>
+
+
+
+
+
+
+
+
+
   );
 }
 function Cover() {
@@ -95,14 +72,147 @@ function Cover() {
   
   );
 }
+function Dfun() {
+  return (
+    <div className="container-fluid" style={{position: 'relative'}}>
+        <div className="row" style={{filter: 'blur(0px)', WebkitFilter: 'blur(0)!important'}}>
+          <div className="col-md-6" style={{}}><img className="imageres" src={require('./assets/img/clipboard-image-31.png')} style={{maxWidth: '671px'}} /></div>
+          <div className="col-md-6" style={{padding: '30px'}}>
+            <div className="row" style={{padding: '35px', marginTop: '49px'}}>
+              <div className="col col-6"><img className="imageres" src={require('./assets/img/clipboard-image-4.png')} /></div>
+              <div className="col col-6"><img className="imageres" src={require('./assets/img/clipboard-image-4.png')} /></div>
+            </div>
+            <div className="row" style={{padding: '35px', marginTop: '49px'}}>
+              <div className="col col-6"><img className="imageres" src={require('./assets/img/clipboard-image-4.png')} /></div>
+              <div className="col col-6"><img className="imageres" src={require('./assets/img/clipboard-image-4.png')} /></div>
+            </div>
+          </div>
+        </div>
+        <div style={{top: 0, right: 0, left: 0, bottom: 0, position: 'absolute', background: 'linear-gradient(90deg, rgba(204, 255, 0, 0.63) 3.9%, rgba(0, 117, 225, 0.897067) 12.17%, rgba(80, 241, 106, 0.727264) 25.81%, rgba(0, 133, 255, 0.567282) 38.66%, rgba(218, 112, 112, 0.433478) 49.41%, rgba(218, 86, 86, 0.297312) 60.35%, rgba(64, 218, 61, 0.160554) 71.34%, rgba(0, 38, 239, 0.291393) 77.38%, rgba(36, 0, 255, 0.44) 84.24%)', filter: 'blur(109px)', pointerEvents: 'none', zIndex: -100}} />
+      </div>
+  
+  );
+}
+function Efun() {
+  return (
+    <div>
+        <div className="container-fluid" style={{position: 'relative'}}>
+          <div className="row" style={{paddingBottom: '35px', paddingTop: '35px', paddingLeft: '24px'}}>
+            <div className="col col-12 col-sm-12 col-md-5" style={{position: 'relative'}}>
+              <h1 style={{fontFamily: '"DM Sans"', fontStyle: 'normal', fontWeight: 700, fontSize: '36px', lineHeight: '47px', color: '#2568B4', paddingTop: '375px', marginLeft: '137px', textAlign: 'left'}}>Swéy Coin</h1>
+              <p style={{fontFamily: '"Roboto"', fontStyle: 'normal', fontWeight: 400, fontSize: '18px', textAlign: 'justify', color: '#545454', lineHeight: '30px', marginLeft: '137px'}}>The Swéy Platform features a modern reward system, designed specifically to give you the best possible value. You can accumulate coins by using the store. <br />Once you have some coins they will fluctuate in value over time going up and down based on the activity we see on the store. Making Swéy coin a free investment in modern shopping.</p><img src={require('./assets/img/clipboard-image-29.png')} style={{/*padding: '10px', *//*paddingTop: '66px', */position: 'absolute', width: '225px', zIndex: -100, /*right: 0, */top: '143px'}} />
+            </div>
+            <div className="col col-12 col-sm-12 col-md-3" style={{paddingBottom: '56px', background: 'url('+require("./assets/img/clipboard-image-17.png")+')) top right / 69px no-repeat'}}>
+              <h1 style={{fontFamily: '"DM Sans"', fontStyle: 'normal', fontWeight: 700, fontSize: '36px', lineHeight: '47px', color: '#2568B4', paddingTop: '59px'}}>Shop</h1>
+              <p style={{fontFamily: '"DM Sans"', fontStyle: 'normal', fontWeight: 700, fontSize: '36px', lineHeight: '47px', color: '#2568B4'}}><strong>Without Limits</strong><br /></p>
+              <p style={{fontFamily: '"Roboto"', fontStyle: 'normal', fontWeight: 400, fontSize: '18px', textAlign: 'justify', color: '#545454', lineHeight: '30px'}}>The Swéy Platform is designed for users to find exactly what they are looking for, at the best rates across the internet. The app works with you to match your intentions, help you find sustainable clothing, or help you find sold out items around the world.</p>
+              <div className="text-center col-12"><button className="btn btn-primary" type="button" style={{height: '64px', width: '256px', top: '351px', borderRadius: '60px', fontFamily: 'Roboto', fontSize: '18px', fontWeight: 500, lineHeight: '21px', letterSpacing: '0em', textAlign: 'center', background: '#70C217', border: 'none'}}>Go To Shop</button></div>
+            </div>
+            <div className="col col-12 col-sm-12 col-md-4" style={{background: 'url('+require("./assets/img/clipboard-image-30.png")+') no-repeat', backgroundSize: 'contain', position: 'relative'}}><img className="imageres" src={require('./assets/img/clipboard-image-15.png')} style={{padding: '10px', paddingTop: '99px'}} /><img src={require('./assets/img/clipboard-image-17.png')} style={{position: 'absolute', width: '195px', right: '90px', top: '216px', left: '18px'}} /><img src={require('./assets/img/clipboard-image-32.png')} style={{position: 'absolute', width: '110px',right: '90px', top: '-14px', left: '120px'}} /></div>
+          </div>
+        </div>
+        <div className="container-fluid" style={{paddingBottom: '77px'}}>
+          <div className="row">
+            <div className="col">
+              <h1 className="text-center" style={{marginRight: '158px'}}>The Modern Fashion Scene:</h1>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-md-6" style={{textAlign: 'center'}}><img className="imageres" src={require('./assets/img/clipboard-image-19.png')} /></div>
+            <div className="col-md-6">
+              <div className="col-12"><img className="imageres" src={require('./assets/img/clipboard-image-20.png')} style={{width: '200px', paddingTop: '16px', paddingRight: '12px', paddingBottom: '16px'}} />
+                <p>“Wölv is a streetwear fashion brand launched in South Africa in 2016 by Stefano Cavalieri and Mandla Koyabe. Wölv Clothing has found the perfect blend of timeless contemporary styles, the highest quality fabrics and craftsmanship for everyday essential wear. We at Wölv believe that luxury should be embroidered in your everyday life, which is why with our Lusso collection, comfort and luxury will now become apart of your everyday activity. As a brand, we don’t support fast fashion or any other forms of environmental harm, we create timeless pieces that are made to last years, not seasons. The Lusso collection was made to fit with every outfit, in every season for years to come”.</p>
+              </div>
+              <div className="row">
+                <div className="col-6"><img className="imageres" src={require('./assets/img/clipboard-image-25.png')} style={{maxWidth: '259px', /*marginTop: '71px', */marginBottom: '116px'}} /></div>
+                <div className="col-6">
+                  <p style={{fontFamily: '"DM Mono"', fontStyle: 'normal', fontWeight: 557, fontSize: '21px', /*textAlign: 'center', */color: '#272D4E', lineHeight: '70px'}}>CLEAN CUT THRIFT</p>
+                  <p style={{/*fontSize: '11px', */letterSpacing: '-1px'}}>Clean Cut Thrift is a modern day renewal of the past. Bringing good quality clothing to fashion forward Thrifters. Thrifting is an effective method of being good for the environment, while maintaining modern Fashion Aesthetics at a very affordable price.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="container-fluid" style={{background: '#0079FF'}}>
+          <div className="row text-center" style={{color: '#0079FF', padding: '17px'}}>
+            <div className="col-md-6 text-center">
+              <p style={{fontFamily: '"Roboto"', fontStyle: 'normal', fontWeight: 700, fontSize: '14px', lineHeight: '52px', color: 'var(--bs-white)'}}>Swéy:&nbsp;your shopping... made simple, the best way to get your store on a Global Platform</p>
+            </div>
+            <div className="col-md-6 text-center align-self-center"><button className="btn btn-primary text-center" type="button" style={{boxSizing: 'border-box', width: '207px',border: '2px solid #FFFFFF', borderRadius: '60px'}}>GET THE APP</button></div>
+          </div>
+        </div>
+      </div>
+  
+  );
+}
+function Footer() {
+  return (
+    <footer>
+        <div className="container-fluid" style={{background: 'var(--gray-dark)',padding: '0px'}}>
+          <div style={{background: '#5AB0FF', padding: '16px'}}>
+            <div className="row" style={{margin: '0px', padding: '0px'}}>
+              <div className="col d-lg-flex justify-content-lg-center text_lg_center" style={{padding: '10.5px'}}>
+                <div style={{width: '260px'}}><img src={require('./assets/img/clipboard-image-6.png')} style={{width: '41px', height: '41px', margin: '12px'}} /><small style={{color: '#FFFFFF', fontFamily: '"Roboto"', fontStyle: 'normal', fontWeight: 400, fontSize: '14px', lineHeight: '52px'}}>Constant quality checks</small></div>
+              </div>
+              <div className="col d-lg-flex justify-content-lg-center text_lg_center" style={{padding: '10.5px'}}>
+                <div style={{width: '260px'}}><img src={require('./assets/img/clipboard-image-8.png')} style={{width: '41px', height: '41px', margin: '12px'}} /><small style={{color: '#FFFFFF', fontFamily: '"Roboto"', fontStyle: 'normal', fontWeight: 400, fontSize: '14px', lineHeight: '52px'}}>Support teams available</small></div>
+              </div>
+              <div className="col d-lg-flex justify-content-lg-center text_lg_center" style={{padding: '10.5px'}}>
+                <div style={{width: '260px'}}><img src={require('./assets/img/clipboard-image-7.png')} style={{width: '41px', height: '41px', margin: '12px'}} /><small style={{color: '#FFFFFF', fontFamily: '"Roboto"', fontStyle: 'normal', fontWeight: 400, fontSize: '14px', lineHeight: '52px'}}>Safe &amp; Secure online payment</small></div>
+              </div>
+            </div>
+          </div>
+          <div style={{background: '#5AB0FF', padding: '16px'}}>
+            <div className="row" style={{margin: '0px', padding: '0px'}}>
+              <div className="col text-center" style={{padding: '10.5px'}}><img src={require('./assets/img/clipboard-image-5.png')} style={{width: '85px', height: '80px'}} /></div>
+            </div>
+          </div>
+          <div style={{background: '#5AB0FF', padding: '16px'}}>
+            <div className="row" style={{margin: '0px', padding: '0px', textAlign: 'center'}}>
+              <div className="col text-start d-grid justify-content-center" style={{padding: '10.5px'}}>
+                <p style={{fontFamily: '"Roboto"', fontStyle: 'normal', fontWeight: 700, fontSize: '14px', lineHeight: '52px', textTransform: 'uppercase', color: '#FFFFFF'}}>MEET SWÉy</p><small style={{color: '#d0d0d0', fontFamily: '"Roboto"', fontStyle: 'normal', fontWeight: 400, fontSize: '12px', lineHeight: '22px'}}>About</small><small style={{color: '#d0d0d0', fontFamily: '"Roboto"', fontStyle: 'normal', fontWeight: 400, fontSize: '12px', lineHeight: '22px'}}>Team</small><small style={{color: '#d0d0d0', fontFamily: '"Roboto"', fontStyle: 'normal', fontWeight: 400, fontSize: '12px', lineHeight: '22px'}}>Work With Us</small><small style={{color: '#d0d0d0', fontFamily: '"Roboto"', fontStyle: 'normal', fontWeight: 400, fontSize: '12px', lineHeight: '22px'}}>Invest In&nbsp;Swéy</small>
+              </div>
+              <div className="col text-start d-grid justify-content-center" style={{padding: '10.5px'}}>
+                <p style={{fontFamily: '"Roboto"', fontStyle: 'normal', fontWeight: 700, fontSize: '14px', lineHeight: '52px', textTransform: 'uppercase', color: '#FFFFFF',}}>Work with Swéy</p><small style={{color: '#d0d0d0', fontFamily: '"Roboto"', fontStyle: 'normal', fontWeight: 400, fontSize: '12px', lineHeight: '22px'}}>Features</small><small style={{color: '#d0d0d0', fontFamily: '"Roboto"', fontStyle: 'normal', fontWeight: 400, fontSize: '12px', lineHeight: '22px'}}>Mobile App</small><small style={{color: '#d0d0d0', fontFamily: '"Roboto"', fontStyle: 'normal', fontWeight: 400, fontSize: '12px', lineHeight: '22px'}}>Email NewsLetter</small>
+              </div>
+              <div className="col text-start d-grid justify-content-center" style={{padding: '10.5px'}}>
+                <p style={{fontFamily: '"Roboto"', fontStyle: 'normal', fontWeight: 700, fontSize: '14px', lineHeight: '52px', textTransform: 'uppercase', color: '#FFFFFF',}}>Shopping</p><small style={{color: '#d0d0d0', fontFamily: '"Roboto"', fontStyle: 'normal', fontWeight: 400, fontSize: '12px', lineHeight: '22px'}}>Stores</small><small style={{color: '#d0d0d0', fontFamily: '"Roboto"', fontStyle: 'normal', fontWeight: 400, fontSize: '12px', lineHeight: '22px'}}>Shops</small><small style={{color: '#d0d0d0', fontFamily: '"Roboto"', fontStyle: 'normal', fontWeight: 400, fontSize: '12px', lineHeight: '22px'}}>Work With Us</small><small style={{color: '#d0d0d0', fontFamily: '"Roboto"', fontStyle: 'normal', fontWeight: 400, fontSize: '12px', lineHeight: '22px'}}>Invest In&nbsp;Swéy</small>
+              </div>
+              <div className="col text-start d-grid justify-content-center" style={{padding: '10.5px'}}>
+                <p style={{fontFamily: '"Roboto"', fontStyle: 'normal', fontWeight: 700, fontSize: '14px', lineHeight: '52px', textTransform: 'uppercase', color: '#FFFFFF',}}>Support</p><small style={{color: '#d0d0d0', fontFamily: '"Roboto"', fontStyle: 'normal', fontWeight: 400, fontSize: '12px', lineHeight: '22px'}}>Support Policy</small>
+              </div>
+              <div className="col text-start d-grid justify-content-center" style={{padding: '10.5px'}}>
+                <p style={{fontFamily: '"Roboto"', fontStyle: 'normal', fontWeight: 700, fontSize: '14px', lineHeight: '52px', textTransform: 'uppercase', color: '#FFFFFF',}}>We recommend</p><small style={{color: '#d0d0d0', fontFamily: '"Roboto"', fontStyle: 'normal', fontWeight: 400, fontSize: '12px', lineHeight: '22px'}}>Contact Swéy</small>
+              </div>
+            </div>
+          </div>
+          <div style={{background: 'var(--bs-white)', padding: '16px'}}>
+            <div className="row row-cols-1 row-cols-md-2">
+              <div className="col" style={{textAlign: 'center'}}><img src={require('./assets/img/clipboard-image-9.png')} style={{padding: '10px', width: '40px'}} /><img src={require('./assets/img/clipboard-image-10.png')} style={{padding: '10px', width: '40px'}} /><img src={require('./assets/img/clipboard-image-11.png')} style={{padding: '10px', width: '40px'}} /></div>
+              <div className="col d-lg-flex align-items-lg-center" style={{fontFamily: '"Roboto"', fontStyle: 'normal', fontWeight: 400, fontSize: '12px', color: '#272D4E', lineHeight: '22px'}}>
+                <div className="text-center col-12" style={{paddingTop: '10px'}}>
+                  <p className="d-inline-block" style={{color: 'var(--bs-secondary)'}}>COPYRIGHT SWÉY -&nbsp;<br /></p><a className="d-inline-block" href="#" style={{color: '#272D4E'}}>TERMS &amp; CONDITIONS PRIVACY POLICY</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+  
+  );
+}
 
 
 import { createRoot } from 'react-dom/client';
 const container = document.getElementById('root');
 const root = createRoot(container); // createRoot(container!) if you use TypeScript
-root.render( <div>
+root.render( <div  style={{width: '100%'}}>
  <Cover />
  <Jumbotron />
+ <MainMenu />
+ <Dfun />
+ <Efun />
+ <Footer />
 </div>);
 
 // ReactDOM.render(
